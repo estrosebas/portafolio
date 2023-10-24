@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Carlos Back-Front</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>Programacion SrSebas</h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">MENU</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">Protectos</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Bienvenidos</p>
+                <h2><span></span>Backend Developer</h2>
+                <p class="descripcion">Apasionado por el desarrollo y siempre en busca de nuevos retos y aprendizajes. ¡Explora y conecta!</p>
+                <a href="#portfolio">Ver trabajos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/me.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre mi</p>
+            <h2>Hola, soy <span>Sebastian Gonzales</span> </h2>
+            <h3>Backend Developer</h3>
+            <p>Soy Diego Sebastián Gonzales Gomez, desarrollador con experiencia en Java y Python y familiaridad en backend con PHP. Más allá del código, tengo un especial cariño por los animales, especialmente las vacas y los gatos. Mi pasión por la tecnología y mis intereses personales me impulsan a buscar siempre nuevas conexiones y colaboraciones.</p>
+            <p>Backend - Bases de datos</p>
+
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-file-code"></i></span>
+                <h4>Java Programming</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-code"></i></span>
+                <h4>PHP Programming</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-java"></i></span>
+                <h4>POO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Databases</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Web</li>
+                    <li>Graphic</li>
+                    <li>SEO</li>
+                </ul>
+                <p>I have been providing web design services with great success for 9 years. The client is very happy</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/hotelutp.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/bazar.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/tablas.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/registrar.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/portafolio.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/base1.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/archivi1.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/base2.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/archivi2.png" alt="">
+                <div class="info">
+                    <h4>Fronted</h4>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contáctame</h3>
+        <div class="info-contacto">
+            <p><strong>Diego Sebastián Gonzales Gomez</strong></p>
+            <p>Email: <a href="mailto:estrosebas@gmail.com">estrosebas@gmail.com</a></p> <!-- Actualiza con tu dirección de correo electrónico -->
+            <div class="redes-contacto">
+                <a href="https://www.linkedin.com/in/diego-sebastian-gonzales-gomez-a9b0a1212/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/estrosebas" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Desarrollo SrSebas - Diego Gonzales</p>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
