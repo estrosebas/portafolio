@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+:root {
+  --primary-color: #0a192f;
+  --secondary-color: #64ffda;
+  --text-color: #8892b0;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: #ccd6f6;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+.highlight {
+  color: var(--secondary-color);
+}
+
+.nav-link {
+  color: #ccd6f6 !important;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem !important;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.project-card {
+  background: #112240;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px -15px rgba(2,12,27,0.7);
+}
+
+.skill-icon {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  margin: 1rem;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 0;
+  }
+  
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  h2 {
+    font-size: 2rem !important;
+  }
+  
+  .project-card {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
