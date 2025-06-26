@@ -9,7 +9,7 @@
 
 ### 🌟 Un portafolio moderno y dinámico que refleja mi pasión por el desarrollo de software
 
-[Ver Portfolio Live](#) • [Reportar Bug](https://github.com/estrosebas/portafolio/issues) • [Solicitar Feature](https://github.com/estrosebas/portafolio/issues)
+[Ver Portfolio Live](https://portafolio-jade-three.vercel.app/) • [Código en GitHub](https://github.com/estrosebas/portafolio)
 
 </div>
 
@@ -24,7 +24,6 @@
 - [💻 Uso](#-uso)
 - [📁 Estructura del Proyecto](#-estructura-del-proyecto)
 - [🎨 Capturas de Pantalla](#-capturas-de-pantalla)
-- [🤝 Contribuir](#-contribuir)
 - [📞 Contacto](#-contacto)
 - [📄 Licencia](#-licencia)
 
@@ -197,18 +196,6 @@ portafolio/
 
 ### 📞 Contacto
 > Formulario de contacto y información de redes sociales
-
----
-
-## 🤝 Contribuir
-
-Las contribuciones son lo que hace que la comunidad open source sea un lugar increíble para aprender, inspirar y crear. ¡Cualquier contribución que hagas será **muy apreciada**!
-
-1. Fork el proyecto
-2. Crea tu Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit tus cambios (`git commit -m 'Add some AmazingFeature'`)
-4. Push a la Branch (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
 
 ---
 
