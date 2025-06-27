@@ -32,7 +32,8 @@
   margin: 0 0 2rem 0;
   color: var(--text-light);
   position: relative;
-  display: inline-block;
+  display: block;
+  text-align: center;
   font-weight: 700;
   background: linear-gradient(90deg, #e6f1ff 0%, #a8b2d1 100%);
   -webkit-background-clip: text;
@@ -45,7 +46,8 @@
   content: '';
   position: absolute;
   bottom: -12px;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 120px;
   height: 4px;
   background: var(--secondary-color);
